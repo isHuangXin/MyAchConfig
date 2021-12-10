@@ -6,11 +6,18 @@
 ### 1. Install arch with GUI
 
 选择Gnome桌面环境的最简安装，进入网页选Gnome Editions -> Gnome Pure Edition
-```
+```shell
 https://archlinuxgui.in/
 ```
 
+GUI傻瓜式安装完成后，输入下列指令 wow amzing
 
+```shell
+$ sudo pacman -S neofetch
+$ neofetch
+```
+
+![neofetch.png](./screenshot/neofetch.png)
 
 
 
@@ -25,7 +32,7 @@ https://archlinuxgui.in/
 $ alsamixer
 
 # 安装sof-firmware驱动，然后再次进入alsamixer选择声卡 defualt：0 sof-hda-dsp 
-# 按M打开headphone声音，just enjoy music ~ 
+# 按M打开headphone声音，just enjoy music
 $ sudo pacman - S sof-firmware
 ```
 
