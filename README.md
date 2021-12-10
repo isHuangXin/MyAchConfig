@@ -24,8 +24,9 @@ https://archlinuxgui.in/
 # 终端输入alsamixer在F6找不到声卡
 $ alsamixer
 
-# 安装sof-firmware驱动，然后再次进入alsamixer选择声卡 defualt：0 sof-hda-dsp 按M打开headphone声音，just enjoy music。
+# 安装sof-firmware驱动，然后再次进入alsamixer选择声卡 defualt：0 sof-hda-dsp 
+# 按M打开headphone声音，just enjoy music ~ 
 $ sudo pacman - S sof-firmware
 ```
 
-![Selection_004](/home/huangxin/Pictures/Selection_004.png)
+![sound-card-config.png](./screenshot/sound-card-config.png)
