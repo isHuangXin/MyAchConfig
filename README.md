@@ -23,13 +23,17 @@ $ neofetch
 
 
 
+---
+
+
+
 ## 踩坑系列
 
 ### 1. 声卡的配置 
 
 ```shell
 # 终端输入alsamixer在F6找不到声卡
-$ alsamixer
+3$ alsamixer
 
 # 安装sof-firmware驱动，然后再次进入alsamixer选择声卡 defualt：0 sof-hda-dsp 
 # 按M打开headphone声音，just enjoy music
@@ -37,3 +41,18 @@ $ sudo pacman - S sof-firmware
 ```
 
 ![sound-card-config.png](./screenshot/sound-card-config.png)
+
+
+
+### 2. weixin.deepin安装后中文字体显示为方框
+
+```shell
+# 安装weixin.deepin
+$ pacman -S deep-wine-wechat
+
+# 显示方框是因为缺少中文字体
+$ sudo pacman -S wqy-microhei
+```
+
+![wechat.png](./screenshot/wechat.png)
+
